@@ -1,8 +1,8 @@
 
-.home-hero {
+.home-background {
   position: relative;
   min-height: 100vh;
-  background: url('../assets/bleach-hero.jpg') center/cover no-repeat;
+  background: url('../assets/bleach-background.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,11 +10,15 @@
   color: #fff;
 }
 
-.hero-overlay {
+.background-overlay {
   background: rgba(0, 0, 0, 0.55);
   padding: 3rem;
   border-radius: 1rem;
   max-width: 800px;
+  transition: all 0.3s ease;
+}
+.background-overlay:hover {
+    transform: translateY(-4px);
 }
 
 
@@ -39,11 +43,3 @@
   
 }
 
-@media (max-width: 768px) {
-  .site-title {
-    font-size: 3rem;
-  }
-  .site-subtitle {
-    font-size: 1.1rem;
-  }
-}

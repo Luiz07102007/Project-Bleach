@@ -13,7 +13,7 @@ const Quincy = () => {
 
           <div className="race-text">
             <p>
-              São humanos com alta sensibilidade espiritual que caçam Hollows
+              Quincys são humanos com alta sensibilidade espiritual que caçam Hollows
               utilizando armas formadas por partículas espirituais.
             </p>
 

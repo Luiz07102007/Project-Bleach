@@ -1,3 +1,5 @@
+
+
 .bleach-page {
   background: linear-gradient(rgba(0, 25, 51, 0.85), rgba(0, 51, 102, 0.85));
   min-height: 100vh;
@@ -6,6 +8,7 @@
   color: #fff;
   padding: 4rem 8%;
   padding-top: 100px;
+  
 }
 
 
@@ -14,6 +17,7 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 3rem;
+  
 }
 
 .bleach-left .race-title {
@@ -22,6 +26,7 @@
   color: #00aaff;
   text-shadow: 0 0 20px rgba(0, 170, 255, 0.8);
   margin-bottom: 0.5rem;
+  
 }
 
 .bleach-left .race-subtitle {
@@ -30,12 +35,14 @@
   color: #fff;
   text-shadow: 0 0 10px rgba(0, 170, 255, 0.8);
   margin-bottom: 2rem;
+  
 }
 
 .race-text {
   font-family: "Google Sans Code", monospace;
   font-size: 1.1rem;
   line-height: 1.8;
+  
 }
 
 .bleach-image {
@@ -44,6 +51,7 @@
   filter: drop-shadow(0 0 25px rgba(0,170,255,0.7)); 
   transition: transform 0.3s ease;
   border-radius: 30px;
+  
 }
 
 .bleach-image:hover {
@@ -66,6 +74,7 @@
   border-radius: 6px;
   text-decoration: none;
   transition: background 0.3s ease;
+  
 }
 
 .nav-button:hover {

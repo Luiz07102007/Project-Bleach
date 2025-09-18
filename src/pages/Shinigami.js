@@ -5,7 +5,7 @@ import ShinigamiImage from '../assets/shinigami.png';
 
 const Shinigami = () => {
   return (
-    <div className="page-container bleach-page">
+    <div className="page-container bleach-page" >
       <div className="bleach-grid">
 
         <div className="bleach-left">
@@ -13,10 +13,10 @@ const Shinigami = () => {
           <p className="race-subtitle">死神</p>
 
           <div className="race-text">
-            <p>São seres espirituais que protegem as almas humanas de Hollows e guiam as almas dos falecidos para o Soul Society.</p>
+            <p>Shinigamis são seres espirituais que protegem as almas humanas de Hollows e guiam as almas dos falecidos para a Soul Society.</p>
 
             <h2>Características</h2>
-            <p>Os shinigamis possuem poderes espirituais chamados Reiryoku, que podem ser canalizados através de suas Zanpakutō...</p>
+            <p>Os shinigamis possuem poderes espirituais chamados Reiryoku, que podem ser canalizados através de suas Zanpakutō.</p>
 
             <h2>Organização</h2>
             <p>A sociedade das almas é organizada em 13 divisões, cada uma com suas responsabilidades específicas.</p>

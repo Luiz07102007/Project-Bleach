@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../css/Bleach.css';   // CSS em tons de laranja
+import '../css/Bleach.css'; 
 import FullbringerImage from '../assets/fullbringer.png'; 
 
 const Fullbringer = () => {
@@ -13,7 +13,7 @@ const Fullbringer = () => {
 
           <div className="race-text">
             <p>
-              Humanos com habilidades especiais capazes de manipular a “alma” de objetos para criar poderes únicos.
+              Fullbringers são humanos com habilidades especiais capazes de manipular a “alma” de objetos para criar poderes únicos.
             </p>
 
             <h2>Características</h2>
