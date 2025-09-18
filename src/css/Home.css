@@ -1,0 +1,49 @@
+
+.home-hero {
+  position: relative;
+  min-height: 100vh;
+  background: url('../assets/bleach-hero.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 3rem;
+  border-radius: 1rem;
+  max-width: 800px;
+}
+
+
+.site-title {
+  font-family: "Asimovian", sans-serif;  
+  font-size: 5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-shadow: 0 0 25px #f3904c;
+  margin-bottom: 1.5rem;
+}
+
+
+.site-subtitle {
+  font-family: "Google Sans Code", monospace;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  max-width: 650px;
+  margin: 0 auto;
+  text-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+  
+}
+
+@media (max-width: 768px) {
+  .site-title {
+    font-size: 3rem;
+  }
+  .site-subtitle {
+    font-size: 1.1rem;
+  }
+}
